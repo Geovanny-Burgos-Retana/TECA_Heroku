@@ -8,7 +8,7 @@ import { Tema } from '../models/tema';
 export class TemaService {
   temaSeleccionado: Tema;
   tema: Tema[];
-  readonly URL_API = 'http://localhost:3000/api/temas';
+  readonly URL_API = /*'http://localhost:3000/api/temas'*/ 'https://immense-island-10865.herokuapp.com/';
   constructor(
     private http: HttpClient
   ) { }

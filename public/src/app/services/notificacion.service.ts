@@ -7,7 +7,7 @@ import { Notificacion } from '../models/notificacion';
 export class NotificacionService {
   notificacionSeleccionado: Notificacion;
   notificacion: Notificacion[];
-  readonly URL_API = 'http://localhost:3000/api/notificaciones';
+  readonly URL_API = /*'http://localhost:3000/api/notificaciones'*/ 'https://immense-island-10865.herokuapp.com/';
   constructor(
     private http: HttpClient
   ) { }

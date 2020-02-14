@@ -7,7 +7,7 @@ import { Recordatorio } from '../models/recordatorio';
 export class RecordatorioService {
   recordatorioSeleccionado: Recordatorio;
   recordatorio: Recordatorio[];
-  readonly URL_API = 'http://localhost:3000/api/recordatorios';
+  readonly URL_API = /*'http://localhost:3000/api/recordatorios'*/ 'https://immense-island-10865.herokuapp.com/';
   constructor(
     private http: HttpClient
   ) { }

@@ -5637,7 +5637,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, DocenteService);
 
         this.http = http;
-        this.URL_API = 'http://localhost:3000/api/docentes';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
         this.docenteSeleccionado = new _models_docente__WEBPACK_IMPORTED_MODULE_3__["Docente"]();
       }
       /**
@@ -5738,7 +5738,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, EstudianteService);
 
         this.http = http;
-        this.URL_API = 'http://localhost:3000/api/estudiantes';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
       }
       /**
        * Servicio de sollicitud al servidor de creacion de un estudiante

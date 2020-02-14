@@ -11,7 +11,7 @@ export class DocenteService {
   docenteSeleccionado: Docente;
   docentes: Docente[];
 
-  readonly URL_API = 'http://localhost:3000/api/docentes';
+  readonly URL_API = /*'http://localhost:3000/api/docentes'*/ 'https://immense-island-10865.herokuapp.com/';
 
   constructor(private http: HttpClient) { 
     this.docenteSeleccionado = new Docente();

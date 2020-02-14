@@ -7,7 +7,7 @@ import { Asignatura } from '../models/asignatura';
 export class AsignaturaService {
   asignaturaSeleccionado: Asignatura;
   asignatura: Asignatura[];
-  readonly URL_API = 'http://localhost:3000/api/asignaturas';
+  readonly URL_API = /*'http://localhost:3000/api/asignaturas'*/ 'https://immense-island-10865.herokuapp.com/';
   constructor(
     private http: HttpClient
   ) { }

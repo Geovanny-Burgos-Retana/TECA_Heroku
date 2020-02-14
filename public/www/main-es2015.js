@@ -3847,7 +3847,7 @@ __webpack_require__.r(__webpack_exports__);
 let DocenteService = class DocenteService {
     constructor(http) {
         this.http = http;
-        this.URL_API = 'http://localhost:3000/api/docentes';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
         this.docenteSeleccionado = new _models_docente__WEBPACK_IMPORTED_MODULE_3__["Docente"]();
     }
     /**
@@ -3907,7 +3907,7 @@ __webpack_require__.r(__webpack_exports__);
 let EstudianteService = class EstudianteService {
     constructor(http) {
         this.http = http;
-        this.URL_API = 'http://localhost:3000/api/estudiantes';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
     }
     /**
      * Servicio de sollicitud al servidor de creacion de un estudiante

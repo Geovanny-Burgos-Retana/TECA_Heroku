@@ -7,7 +7,7 @@ import { Ranking } from '../models/ranking';
 export class RankingService {
   rankingSeleccionado: Ranking;
   ranking: Ranking[];
-  readonly URL_API = 'http://localhost:3000/api/ranking';
+  readonly URL_API = /*'http://localhost:3000/api/ranking'*/ 'https://immense-island-10865.herokuapp.com/';
   constructor(
     private http: HttpClient
   ) { }

@@ -8,7 +8,7 @@ import { Logro } from '../models/logro';
 export class LogroService {
   logroSeleccionado: Logro;
   logro: Logro[];
-  readonly URL_API = 'http://localhost:3000/api/logros';
+  readonly URL_API = /*'http://localhost:3000/api/logros'*/ 'https://immense-island-10865.herokuapp.com/';
   constructor(
     private http: HttpClient
   ) { }
