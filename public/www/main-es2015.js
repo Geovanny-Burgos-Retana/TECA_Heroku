@@ -3966,7 +3966,7 @@ __webpack_require__.r(__webpack_exports__);
 let UsuarioService = class UsuarioService {
     constructor(http) {
         this.http = http;
-        this.URL_API = 'https://immense-island-10865.herokuapp.com//api/users';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/api/users';
     }
     /**
      * Servicio de creacion de un usuario

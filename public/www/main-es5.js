@@ -5838,7 +5838,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, UsuarioService);
 
         this.http = http;
-        this.URL_API = 'https://immense-island-10865.herokuapp.com//api/users';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/api/users';
       }
       /**
        * Servicio de creacion de un usuario
