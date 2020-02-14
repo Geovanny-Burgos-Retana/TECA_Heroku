@@ -5637,7 +5637,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, DocenteService);
 
         this.http = http;
-        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/api/docentes';
         this.docenteSeleccionado = new _models_docente__WEBPACK_IMPORTED_MODULE_3__["Docente"]();
       }
       /**
@@ -5738,7 +5738,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, EstudianteService);
 
         this.http = http;
-        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com/api/estudiantes';
       }
       /**
        * Servicio de sollicitud al servidor de creacion de un estudiante
@@ -5838,7 +5838,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, UsuarioService);
 
         this.http = http;
-        this.URL_API = 'https://immense-island-10865.herokuapp.com/';
+        this.URL_API = 'https://immense-island-10865.herokuapp.com//api/users';
       }
       /**
        * Servicio de creacion de un usuario

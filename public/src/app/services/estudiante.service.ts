@@ -8,7 +8,7 @@ import { Estudiante } from '../models/estudiante';
 export class EstudianteService {
   estudianteSeleccionado: Estudiante;
   estudiantes: Estudiante[];
-  readonly URL_API = /*'http://localhost:3000/api/estudiantes'*/ 'https://immense-island-10865.herokuapp.com/';
+  readonly URL_API = /*'http://localhost:3000/api/estudiantes'*/ 'https://immense-island-10865.herokuapp.com/api/estudiantes';
   constructor(
     private http: HttpClient
   ) { }

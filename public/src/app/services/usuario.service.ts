@@ -11,7 +11,7 @@ import { AuthenticationService, TokenResponse } from '../services/authentication
 export class UsuarioService {
   usuarioSeleccionado: Usuario;
   usuario: Usuario[];
-  readonly URL_API = 'https://immense-island-10865.herokuapp.com/';
+  readonly URL_API = 'https://immense-island-10865.herokuapp.com//api/users';
   
   constructor(private http: HttpClient) {}
 
