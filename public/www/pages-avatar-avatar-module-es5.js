@@ -180,7 +180,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = ".avatarComponent {\n  top: 94px;\n  right: 104px;\n  text-align: center; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYXZhdGFyL0M6XFxVc2Vyc1xcZ2ZyYW5cXERvY3VtZW50c1xcQ0FJSkhDR1xcYXBwUmVwYXNvXFxwdWJsaWMvc3JjXFxhcHBcXHBhZ2VzXFxhdmF0YXJcXGF2YXRhci5wYWdlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxTQUFTO0VBQ1QsWUFBVztFQUNYLGtCQUFrQixFQUFBIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvYXZhdGFyL2F2YXRhci5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXZhdGFyQ29tcG9uZW50e1xyXG4gICAgdG9wOiA5NHB4O1xyXG4gICAgcmlnaHQ6MTA0cHg7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn0iXX0= */";
+    __webpack_exports__["default"] = ".avatarComponent {\n  top: 94px;\n  right: 104px;\n  text-align: center;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYXZhdGFyL0M6XFxVc2Vyc1xcZ2ZyYW5cXERlc2t0b3BcXFRFQ0FfSGVyb2t1XFxwdWJsaWMvc3JjXFxhcHBcXHBhZ2VzXFxhdmF0YXJcXGF2YXRhci5wYWdlLnNjc3MiLCJzcmMvYXBwL3BhZ2VzL2F2YXRhci9hdmF0YXIucGFnZS5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksU0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtBQ0NKIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvYXZhdGFyL2F2YXRhci5wYWdlLnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYXZhdGFyQ29tcG9uZW50e1xyXG4gICAgdG9wOiA5NHB4O1xyXG4gICAgcmlnaHQ6MTA0cHg7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn0iLCIuYXZhdGFyQ29tcG9uZW50IHtcbiAgdG9wOiA5NHB4O1xuICByaWdodDogMTA0cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn0iXX0= */";
     /***/
   },
 
