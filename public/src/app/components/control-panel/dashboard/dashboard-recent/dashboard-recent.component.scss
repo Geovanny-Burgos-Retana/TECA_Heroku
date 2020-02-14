@@ -1,0 +1,97 @@
+.subtitle {
+    position: absolute;
+    width: 87.6px;
+    height: 17.88px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+.button {
+    position: absolute;
+    width: 77.97px;
+    height: 23.57px;
+    left: 551px;
+    top: 0px;
+    color: #5570FF;
+}
+.card {
+    position: absolute;
+    width: 196.66px;
+    height: 125.04px;
+    top: 279px;
+    background: #FFFFFF;
+}
+.row {
+    width:100%;
+    height:100%;
+}
+.cardTitle {
+    position: absolute;
+    width: 187px;
+    height: 56px;
+    left: 10px;
+    top: 29px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+.cardSubtitle {
+    position: absolute;
+    width: 130px;
+    height: 17px;
+    left: 13px;
+    top: 93px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+.firstCard {
+    position: absolute;
+    width: 190px;
+    height: 127px;
+    left: -5.32px;
+    top: -0.28px;
+    top: 36.43px;
+
+    background: #24B064;
+    border-radius: 10px;
+}
+.secondCard {
+    position: absolute;
+    width: 190px;
+    height: 127px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    left: 199.54px;
+    top: 36.43px;
+    background: #885AF8;
+    border-radius: 10px;
+}
+.thirdCard {
+    position: absolute;
+    width: 190px;
+    height: 127px;
+    top: 0px;
+    left: 404px;
+    top: 36.43px;
+    background: #F7685B;
+    border-radius: 10px;
+}

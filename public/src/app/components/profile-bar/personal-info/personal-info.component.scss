@@ -1,0 +1,37 @@
+.subtitle {
+    width: 149px;
+    height: 16px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+    margin-left: 10px; 
+}
+.icon {
+    margin-left: -5px; 
+}
+.item {
+    margin: 0px;
+    border: 0px;
+    --inner-border-width: 0px;
+    --border-width:0px;
+    
+    height: 32px;
+}
+.data {
+    width: 175px;
+    height: 20px;
+    margin: 0px;
+    border: 0px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #334D6E;    
+    margin-left: 10px; 
+}

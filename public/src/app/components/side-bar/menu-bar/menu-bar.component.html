@@ -1,0 +1,56 @@
+<div class="principal">
+  <ion-grid>
+    <ion-row >
+      <ion-col>
+         <ion-img src="assets/img/logo/logoMenu.png" class="logoDimensions"></ion-img>       
+      </ion-col>
+    </ion-row>  
+    <div class="menuOptions">
+      <ion-row  class="item" [ngClass]="{ 'itemSelect': selectedOption == opcion1 }">
+        <ion-col>
+          <ion-item value="panel" lines="none" color="Atomik" (click)="goPanel()" >
+              <ion-icon slot="start" id="dashboardIcon" ></ion-icon>
+              <ion-label fill="clear"  >{{opcion1}}</ion-label>          
+          </ion-item>
+        </ion-col>        
+      </ion-row>
+      <ion-row  class="item" [ngClass]="{ 'itemSelect': selectedOption == opcion2 }">
+          <ion-col >
+            <ion-item lines="none" color="Atomik" (click)="goCampania()">
+                <ion-icon slot="start" id="campaignIcon"></ion-icon>
+              <ion-label>{{opcion2}}</ion-label>            
+            </ion-item>
+          </ion-col>        
+      </ion-row>
+      <ion-row  class="item" [ngClass]="{ 'itemSelect': selectedOption == opcion3 }">
+          <ion-col>
+            <ion-item lines="none" color="Atomik" (click)="goLibre()">
+              <ion-icon slot="start" id="freeModeIcon"></ion-icon>
+              <ion-label>{{opcion3}}</ion-label>            
+            </ion-item>
+          </ion-col>        
+      </ion-row>
+      <ion-row  class="item" [ngClass]="{ 'itemSelect': selectedOption == opcion4 }">
+        <ion-col>
+          <ion-item lines="none" color="Atomik" (click)="goFichas()">
+              <ion-icon slot="start" id="notesIcon"></ion-icon>
+            <ion-label>{{opcion4}}</ion-label>          
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row class="configuraciones" [ngClass]="{ 'item': true}">
+        <ion-col>
+          <ion-item lines="none" color="Atomik" (click)="goConfiguraciones()">
+            <ion-icon slot="start" id="settingsIcon"></ion-icon>
+            <ion-label>{{opcion5}}</ion-label>         
+          </ion-item>
+        </ion-col>
+      </ion-row>      
+    </div> 
+
+
+  </ion-grid>
+</div>
+
+

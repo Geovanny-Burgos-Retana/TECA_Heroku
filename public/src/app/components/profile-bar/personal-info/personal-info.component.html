@@ -1,0 +1,36 @@
+<div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-label class="subtitle">{{title}}</ion-label>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col >
+        <ion-item lines="none" class="item">
+          <ion-icon src="assets/icon/personal-info/email.svg"></ion-icon>
+          <ion-label class="data">{{authenticationService.getUserDetails().email}}</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-item lines="none">
+            <ion-icon src="assets/icon/personal-info/userId.svg"></ion-icon>
+          <ion-label class="data">{{calculateAge(authenticationService.getUserDetails().fechaNacimiento)}}</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>    
+
+    <ion-row>
+      <ion-col>
+        <ion-item lines="none">
+            <ion-icon src="assets/icon/personal-info/graduationCap.svg"></ion-icon>
+          <ion-label class="data">{{authenticationService.getUserDetails().grado}}</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>  
+  </ion-grid>
+</div>

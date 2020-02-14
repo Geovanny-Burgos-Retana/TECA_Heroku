@@ -1,0 +1,123 @@
+.principal {
+    position: absolute;
+    margin-left: 107px;
+}
+
+.title {
+    width: 320px;
+    height: 40px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: #5570FF;
+}
+
+.textContent {
+    width: 302px;
+    margin-top:5px;
+}
+
+.text {
+    width: 302px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+
+.task {
+    width: 169.1px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    background: #E1E5FA;
+    color: #5570FF;
+    width: auto;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.task-content {
+    width: 164.81px;
+}
+
+.card {
+    width: 164.81px;
+    height: 221.47px;
+    background: #E1E5FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.img {
+    width: 104.79px;
+    height: 127.81px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.no-medals-img {
+    width: 156.44px;
+    height: 190.81px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardsRow {
+    margin-top:24px;
+    
+}
+
+.no-medals-header {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #5570FF;
+}
+
+.no-medals-text {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #6F9CD6;
+}
+
+.no-medals-card {
+    position: absolute;
+    width: 201.34px;
+    top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none !important;
+    box-shadow: none;
+}
+
+.no-medals-container {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid {
+    display: grid;
+}

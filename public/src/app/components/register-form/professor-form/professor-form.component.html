@@ -1,0 +1,87 @@
+<div>
+  <form>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">{{nombre}}</ion-label>
+            <ion-input type="text" name="nombre"(ionInput)="setNombre($event)"></ion-input>
+          </ion-item>
+        </ion-col>
+
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-segment (ionChange)="setSexo($event)">
+              <ion-segment-button value="Femenino">
+              <ion-label>{{genero1}}</ion-label>
+              <ion-icon name="Woman"></ion-icon>
+            </ion-segment-button>
+
+            <ion-segment-button value="Masculino">
+              <ion-label>{{genero2}}</ion-label>
+              <ion-icon name="Man"></ion-icon>
+            </ion-segment-button>
+          </ion-segment>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>{{fecha}}</ion-label>
+            <ion-datetime displayFormat="DD/MM/YYYY" value="2020-02-20" placeholder="Seleccione su fecha" (ionChange)="setFechaNacimiento($event)"></ion-datetime>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">{{especialidad}}</ion-label>
+            <ion-input type="text" name="especialidad" (ionInput)="setEspecialidad($event)"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">{{email}}</ion-label>
+            <ion-input type="email" name="email" (ionInput)="setEmail($event)"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label position="floating">{{password}}</ion-label>
+            <ion-input type="password" name="password" (ionInput)="setPassword($event)"></ion-input>
+          </ion-item> 
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <ion-col class="btnRegisterLocation">
+          <ion-button shape="round"(click)="create()" class="btnRegister">{{botonRegistro}}</ion-button>
+        </ion-col>
+      </ion-row> 
+
+      <ion-row>
+        <ion-col class="optionalText">
+          <ion-label>o</ion-label> 
+        </ion-col>  
+      </ion-row>
+
+      <ion-row >
+        <ion-col class="btnLogin">
+          <ion-button fill="clear" (click)="goToInicio()">{{botonLogin}}</ion-button> 
+        </ion-col>
+      </ion-row>
+
+    </ion-grid>  
+  </form> 
+</div>

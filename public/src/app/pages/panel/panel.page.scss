@@ -1,0 +1,36 @@
+.principal{
+    //width: 1280px;
+    //height: 800px;
+    top: 0px;
+}
+.sidebar{
+    position: absolute;
+    left: 0px;
+    width: 237.13px;
+    // top:0px;
+}
+.dashboard{
+   position: absolute;
+    width: 765.87px;
+    left:237.13px;;
+    right: 0px;
+    top:0px;
+}
+.profilebar{
+   position: absolute;
+    width: 277px;
+    left:1003px;
+    right: 140px;  
+    top:0px;
+}
+.achievements {
+    position: absolute;
+    left:237.13px;
+    right: 0px;
+    top:0px;
+}
+.campaign {
+    position: absolute;
+    right: 0px;
+    top:0px;
+}

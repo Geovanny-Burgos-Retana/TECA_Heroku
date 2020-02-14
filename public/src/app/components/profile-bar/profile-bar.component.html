@@ -1,0 +1,33 @@
+<div class="principal">
+  <ion-grid>
+    <ion-row class="imagen"> 
+      <ion-col>
+        <ion-img [src]="authenticationService.getUserDetails().avatar" class="avatar"></ion-img>
+      </ion-col>
+    </ion-row>    
+
+    <ion-row class="nombreUsuario">
+      <ion-col >
+        <ion-label class="name">{{authenticationService.getUserDetails().nombre}}</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <app-personal-info class="personalInfo" ></app-personal-info>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+          <app-reminder-info ></app-reminder-info>
+      </ion-col>
+    </ion-row>
+    <ion-row nowrap >
+      <ion-col class="logout"  >
+        <ion-item lines="none">
+            <ion-icon src="assets/icon/personal-info/logout.svg"></ion-icon>
+            <ion-label class="logoutLabel">Cerrar Sesion</ion-label>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>

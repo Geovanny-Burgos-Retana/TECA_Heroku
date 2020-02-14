@@ -1,0 +1,32 @@
+<div class="principal">
+    <ion-grid class="grid">
+      <ion-row fixed>
+        <ion-col>
+              
+        </ion-col>
+      </ion-row>
+      <ion-row fixed>
+        <ion-col>
+          <ion-label class="title">{{title}}</ion-label>
+        </ion-col>
+      </ion-row >
+      <ion-row fixed>
+        <ion-col class="textContent">
+          <div class="textContent">
+            <ion-label class="text" text-wrap>{{text}}</ion-label>
+          </div>
+        </ion-col>
+      </ion-row>
+       <ion-row class="row">   
+        <ion-col class="card-container"size="auto" col-4 *ngFor="let practice of practices ; let i = index">
+            <ion-card class="card" [ngClass]="{'firstCard':i%3==0, 'secondCard':i%3==1, 'thirdCard':i%3==2}">
+                <ion-card-header>
+                    <ion-card-title class="cardTitle">{{practice.name}}</ion-card-title>
+                    <ion-card-subtitle class="cardSubtitle">{{practice.percentage}}% realizada</ion-card-subtitle>
+                </ion-card-header>
+            </ion-card>
+        </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+  </div>

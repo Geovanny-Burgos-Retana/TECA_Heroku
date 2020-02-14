@@ -1,0 +1,95 @@
+.principal{
+    position: absolute;
+    width: 237.13px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: #5570FF;  
+}
+.menuOptions{
+    margin-top: 50px;
+}
+.logoDimensions{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.item {
+    cursor: pointer;
+    background: #5570FF;  
+    color:#ffffff;
+    font-size: large;
+
+}
+.item ion-item:hover, .itemSelect {
+    color: #80AAE1;
+}
+.item ion-label {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -5%;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #80AAE1;
+
+}
+.item ion-item:hover ion-label, .itemSelect ion-label {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -5%;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+.item #dashboardIcon {
+    content: url("src/assets/icon/menu/dashboardColor.svg");
+}
+.item #freeModeIcon {
+    content: url("src/assets/icon/menu/freeModeColor.svg");
+}
+.item #notesIcon {
+    content: url("src/assets/icon/menu/NotesColor.svg");
+}
+.item #campaignIcon {
+    content: url("src/assets/icon/menu/campaignColor.svg");
+}
+.item #settingsIcon {
+    content: url("src/assets/icon/menu/settingsColor.svg");
+}
+.item ion-item:hover #dashboardIcon, .itemSelect #dashboardIcon {
+    content: url("src/assets/icon/menu/dashboard.svg");
+}
+.item ion-item:hover #freeModeIcon, .itemSelect #freeModeIcon {
+    content: url("src/assets/icon/menu/freeMode.svg");
+}
+.item ion-item:hover #notesIcon, .itemSelect #notesIcon {
+    content: url("src/assets/icon/menu/Notes.svg");
+}
+.item ion-item:hover #campaignIcon, .itemSelect #campaignIcon {
+    content: url("src/assets/icon/menu/campaign.svg");
+}
+.configuraciones{
+    margin-top: 270px;
+}
+.configuraciones ion-item:hover{
+    color: #f1f1f1;
+    font-size: large;
+}

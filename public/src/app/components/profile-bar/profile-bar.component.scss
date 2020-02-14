@@ -1,0 +1,55 @@
+.principal{
+    position: absolute;
+    width: 277px;
+    height: 801px;
+    //left: 143px;
+    top: 0px; 
+}
+.imagen{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.avatar{
+    width: 100px;
+    height: 100px; 
+    border-style: solid;
+    border-color: #5570FF;
+    border-radius: 15px;
+}
+
+.nombreUsuario{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.name {
+    width: 223px;
+    height: 26px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+
+    color: #334D6E;
+}
+ 
+.personalInfo {
+    margin-top: 0px;
+}
+
+.logout {
+    align-items: flex-end
+}
+.logoutLabel {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    margin-left: 10px;
+    color: #334D6E;
+}

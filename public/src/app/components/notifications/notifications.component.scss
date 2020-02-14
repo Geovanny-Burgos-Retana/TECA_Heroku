@@ -1,0 +1,54 @@
+.title {
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 344px;
+    top: 112px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+
+    color: #5570FF;
+}
+.date {
+    position: absolute;
+    width: 241px;
+    height: 20px;
+    left: 107.87px;
+
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+.notification {
+    position: absolute;
+    width: 343px;
+    height: 17px;
+    left: 157.87px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+
+    color: #334D6E;
+}
+.icon {
+    position: absolute;
+    left: 27.73%;
+    right: 70.23%;
+    top: 28.75%;
+    bottom: 67.25%;
+
+    background: #5570FF;
+}

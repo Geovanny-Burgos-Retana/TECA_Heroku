@@ -1,0 +1,99 @@
+.principal{
+    background: #E5E5E5;
+    width: 765.87;
+    height: 800px;
+    top:0px
+
+}
+.bg {
+    position: absolute;
+    width: 766px;
+    height: 800px;
+    top: 0px;
+    background: rgba(232, 234, 250, 0.19);
+}
+.title{
+    position: absolute;
+    width: 401px;
+    height: 36px;
+    left: 102px;
+    top: 151px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+.question {
+    position: absolute;
+    width: 315px;
+    height: 25px;
+    left: 102px;
+    top: 195px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #42648F;
+}
+.subtitle {
+    position: absolute;
+    width: 87.6px;
+    height: 17.88px;
+    left: 102px;
+    top: 247.1px;
+    font-family: Muli;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
+}
+.button {
+    position: absolute;
+    width: 77.97px;
+    height: 23.57px;
+    top: 242.57px;
+    left: 653px;
+}
+.buttonFont {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #5570FF;
+}
+.list {
+    position: absolute;
+    left:102px;
+    top:279px;
+}
+.recent {
+    position: absolute;
+    left: 102px;
+    top: 242.57px;
+}
+.ranking {
+    position: absolute;
+    width: 326px;
+    height: 208px;
+    left: 106px;
+    top: 476px;
+
+}
+.achievements{
+    position: absolute;
+    width: 258px;
+    height: 146.04px;
+    left: 472px;
+    top: 476px;
+}

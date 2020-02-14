@@ -1,0 +1,56 @@
+<div class="principal">
+  <ion-grid class="grid">
+    <ion-row fixed>
+      <ion-col>
+            
+      </ion-col>
+    </ion-row>
+    <ion-row fixed>
+      <ion-col>
+        <ion-label class="title">{{title}}</ion-label>
+      </ion-col>
+    </ion-row >
+    <ion-row fixed>
+      <ion-col class="textContent">
+        <div class="textContent">
+          <ion-label class="text" text-wrap>{{text}}</ion-label>
+        </div>
+      </ion-col>
+    </ion-row>
+        <ng-container
+          *ngIf="achievements?.length > 0; then medals; else noMedals">
+        </ng-container>
+    
+  </ion-grid>
+</div>
+  
+
+  <ng-template #medals>
+      <ion-row class="cardsRow" *ngIf="achievements?.length > 0">
+          <ion-col *ngFor="let achievement of achievements " >
+              <ion-card class="card" >
+                  <ion-card-header justify-content-center>
+                    <ion-img src="assets/img/all/medalla.svg" class="img"></ion-img>
+                  </ion-card-header>
+                  <ion-card-content center text-center class="task-content">
+                      <ion-label center class="task">{{achievement.task}}</ion-label>
+                  </ion-card-content>
+              </ion-card>
+          </ion-col>
+        </ion-row>
+    </ng-template>
+  
+  
+    <ng-template #noMedals>
+        <ion-row fixed class="no-medals-container">
+            <ion-col fixed justify-content-center class="no-medals-container">
+                <ion-card class="no-medals-card" >
+                    <ion-card-header justify-content-center class="no-medals-header">
+                        <ion-img src="assets/img/all/medallaGris.svg" class="no-medals-img"></ion-img>
+                        <ion-card-title class="no-medals-header">Aún no tienes medallas</ion-card-title>
+                        <ion-card-subtitle class="no-medals-text">Completa asignaturas para conseguirlas.</ion-card-subtitle> 
+                    </ion-card-header>
+                </ion-card>
+            </ion-col>
+          </ion-row>
+      </ng-template>

@@ -1,0 +1,53 @@
+<div class="principal">
+    <ion-grid class="grid" fixed>
+      <ion-row fixed>
+        <ion-col>
+              
+        </ion-col>
+      </ion-row>
+      <ion-row fixed>
+        <ion-col>
+          <ion-label class="title">{{title}}</ion-label>
+        </ion-col>
+      </ion-row >
+      <ion-row fixed>
+        <ion-col class="textContent">
+          <div class="textContent">
+            <ion-label class="text" text-wrap>{{text}}</ion-label>
+          </div>
+        </ion-col>
+      </ion-row>
+      <ion-row fixed>
+          <ion-col >
+            <div class="subtitle-content">
+              <ion-label class="subtitle" text-wrap>{{subtitle}}</ion-label>
+            </div>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>
+            <ion-row>
+            <ion-toolbar mode="md" class="toolbar">
+                <ion-segment  #segments  mode="md" >
+                    <ion-segment-button *ngFor="let subject of subjects ; let i = index" value="{{subject.name}}" class="ion-segment-button" (click)="selectedTab(i)">
+                        <ion-label class="tab-title" style="text-transform: none;">{{subject.name}}</ion-label>
+                      </ion-segment-button>
+                </ion-segment>
+              </ion-toolbar>
+        </ion-row>
+        <ion-row style="margin-top: 33px;">
+          <ion-col size="6" *ngFor="let practice of practices ; let i = index">
+              <ion-item class="item" lines="none">
+                <ion-row>
+                  <svg height="70" width="70">
+                      <circle cx="35" cy="35" r="35" stroke-width="0" [ngClass]="{'first-circle':i%4==0, 'second-circle':i%4==1, 'third-circle':i%4==2, 'fourth-circle':i%4==3}"/>
+                    </svg>
+                  <ion-label class="practice-title">{{practice.name}}</ion-label>
+                </ion-row>
+              </ion-item>
+          </ion-col>
+          </ion-row>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+  </div>

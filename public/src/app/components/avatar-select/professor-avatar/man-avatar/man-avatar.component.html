@@ -1,0 +1,31 @@
+<div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-segment (ionChange)="selectAvatar($event)">
+          <ion-segment-button value="assets/img/avatar/masculino/docente/docente1.png">
+            <ion-img src="assets/img/avatar/masculino/docente/docente1.png"></ion-img>
+        </ion-segment-button>
+
+        <ion-segment-button value="assets/img/avatar/masculino/docente/docente2.png">
+          <ion-img src="assets/img/avatar/masculino/docente/docente2.png"></ion-img>
+        </ion-segment-button>
+
+        <ion-segment-button value="assets/img/avatar/masculino/docente/docente3.png">
+          <ion-img src="assets/img/avatar/masculino/docente/docente3.png"></ion-img>
+        </ion-segment-button>  
+
+        <ion-segment-button value="assets/img/avatar/masculino/docente/docente4.png">
+          <ion-img src="assets/img/avatar/masculino/docente/docente4.png"></ion-img>
+        </ion-segment-button>        
+      </ion-segment>    
+      </ion-col>
+    </ion-row> 
+
+    <ion-row>
+      <ion-col class="btnEmpecemos">
+        <ion-button shape="round" (click)="create()">{{comando}}</ion-button>
+      </ion-col>
+    </ion-row>    
+  </ion-grid>
+</div>

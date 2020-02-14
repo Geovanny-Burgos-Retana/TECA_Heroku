@@ -1,0 +1,20 @@
+<div>
+  <ion-grid class="grid">
+    <ion-row>
+      <ion-label class="subtitle">Reciente</ion-label>
+      <ion-button shape="round" fill="outline" class="button" name="seeMorePractice" >
+          <ion-label text-capitalize class="buttonFont">Ver más</ion-label>
+      </ion-button>
+    </ion-row>
+    <ion-row class="row">   
+      <ion-col col-3 *ngFor="let practice of practices ; let i = index">
+          <ion-card class="card" [ngClass]="{'firstCard':i==0, 'secondCard':i==1, 'thirdCard':i==2}">
+              <ion-card-header>
+                  <ion-card-title class="cardTitle">{{practice.name}}</ion-card-title>
+                  <ion-card-subtitle class="cardSubtitle">{{practice.percentage}}% realizada</ion-card-subtitle>
+              </ion-card-header>
+          </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
